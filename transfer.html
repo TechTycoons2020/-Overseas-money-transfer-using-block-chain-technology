@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Elixir Transfer
+	</title>
+	<link rel="icon" href="css/elixir.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/transfer.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+</head>
+
+<body>
+	<div class="bg">
+		<nav>
+			<a href="index.html">home</a>
+			<a href="transactions.html">transactions</a>
+			<a class="active" href="transfer.html">transfer</a>
+
+			<a href="." style="float: right;">log out</a>
+
+			<!-- <label id="address" class='address' style="margin-left: 800px; size:10px; font-size: 20px; color:black"></label> -->
+		</nav>
+		<div class="container">
+			<label>address</label><br><br>
+			<input type="text" id="add" name="" placeholder="Enter Address..."><br><br>
+
+			<label>amount</label><br><br>
+			<input type="number" name="" id="amount" placeholder="Enter Amount..."><br><br>
+
+			<br>
+			<label> Balance : </label>
+			<label id="balance" style="margin-left:40px;color:black ;"> hiii </label>
+			<br>
+			<input type="submit" id="transfer" name="" value="transfer">
+
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/contract.js"></script>
+	<script type="text/javascript" src="js/transfer.js">  </script>
+
+</body>
+
+</html>
